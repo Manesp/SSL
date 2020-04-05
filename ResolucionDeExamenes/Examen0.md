@@ -11,7 +11,8 @@ La tarea más representativa para la que un Ingeniero en Sistemas de Informació
 La información es un conjunto de datos que tiene un sentido, no solo porque representa  una realidad, sino por que a alguien le interesa. 
 
 3. Indique las asignaturas del área de programación.
- Las Asignaturas del area de programación son:
+ 
+Las Asignaturas del area de programación son:
     1. Matemática Discreta
     2. Algoritmos y Estructuras de Datos
     3. Sintaxis y Semántica de los Lenguajes 
@@ -20,30 +21,80 @@ La información es un conjunto de datos que tiene un sentido, no solo porque rep
 
 4. Indique las asignaturas del área de sistemas de información.
 
+Las asignaturas del área de sistemas de información son:   
+    1. Análisis de requisitos
+    2. Análisis de sistemas
+    3. Diseño de sistemas
+    4. Ingeniería de Software
+    5. Sistemas y organizaciones
+
 5. Indique el paradigma de programación aplicado en primer año de la carrera.
+
+El paradigma de programación utilizado en el primer año de la carrera, fue un paradigma de programación estructurado.
 
 6. Defina abstracción.
 
- Proceso de análisis del mundo real con el propósito de interpretar los aspectos esenciales de un problema y expresarlo en términos precisos.
+Proceso de análisis del mundo real con el propósito de interpretar los aspectos esenciales de un problema y expresarlo en términos precisos.
 
- <h3>Tercera Parte</h3>
+<h3>Segunda Parte</h3>
 
- 1. Defina algoritmo.
+1.  Indique diferencias entre secuencia y conjunto.
+
+En una secuencia a diferencia de un conjunto, el orden en que aparecen los términos sí es relevante y un mismo término puede aparecer en más de una posición.
+
+2.  Defina el concepto matemático secuencia.
+
+Una secuencia es un grupo de números o de otros elementos matemáticos que forman un conjunto ordenado.
+
+3.  Defina función matemática.
+
+Una función matemática es una relación que se establece entre dos conjuntos, a través de la cual a cada elemento del primer conjunto se le asigna un único elemento del segundo conjunto o ninguno.
+
+4.  Defina grafo.
+
+Un grafo es una estructura formada por vértices unidos a través de aristas y se utiliza para representar determinadas situaciones. 
+
+5. Defina partición de un conjunto.
+   
+Una partición de un conjunto es una división del mismo, en subconjuntos que no son vacíos y que no tienen ningún elemento en común.
+ 
+6.  Sea X={a,b} indique P(X)
+
+
+7.  Defina Lenguaje Formal.
+
+Un lenguaje es un conjunto de palabras y métodos para combinar palabras, que es usado y entendido por un extenso grupo de personas. 
+Los lenguajes formales se caracterizan por tener reglas gramaticales preestablecidas. Son ejemplo de este tipo de lenguajes los lenguajes de programación.
+
+8.  Defina autómata finito.
+
+Un autómata finito es una herramienta abstracta que se utiliza para reconocer determinado Lenguaje Regular. 
+Es un modelo matemático de un sistema que recibe una cadena formada por caracteres de un determninado alfabeto y determina si esa cadena pertenece o no al lenguaje que reconoce.
+
+<h3>Tercera Parte</h3>
+
+1. Defina algoritmo.
 
 Es un conjunto de reglas, ordenadas de forma lógica, finito y preciso para la
 solución de un problema, con utilización o no de un computador. 
 
 2. Defina programación estructurada.
 
-Es un paradigma de programación orientado a mejorar la claridad, calidad y tiempo de desarrollo de un programa de computadora, utilizando únicamente subrutinas y tres estructuras: Asignación, selección y repetición.
+La programación estructurada es un paradigma, que hace uso de estructuras de control para la ejecución de un programa. También facilita la creación de componentes re-utilizables, dividiendo el programa en módulos más pequeños.
 
 3. Indique las tres estructuras de control de flujo de ejecución de la programación estructurada.
 
 Las estructuras de control de flujo de la programación estructurada son la asignación, selección y repetición.
 
 4.  Indique las diferencias entre parámetro y argumento.
+   
+    Parámetro: variable cuya característica principal es que se utiliza para transferir información entre módulos.
+    Argumento: valor que toma un parámetro al momento de la transferencia de información.
 
 5. Explique las dos formas de transferencia de argumentos.
+
+-Por valor: se comparte una copia del dato entre los módulos, por lo cual las modificaciones realizadas por el segundo módulo no afectan al del primero.
+-Por referencia: se comparte la dirección de memoria donde el dato se encuentra almacenado, por lo cual tanto el módulo que realiza la llamada, como el llamado pueden acceder a dicho dato y modificarlo.
 
 6. Explique las diferencias entre parámetros de entrada, de salida y de entrada/salida
 
@@ -58,9 +109,14 @@ que el parámetro y no puede ser una expresión.
 
 7. Defina tipo de dato abstracto.
 
+Un tipo de dato abstracto está definido por un conjunto de operaciones que representan el comportamiento, sin mencionar cómo van a ser implementadas.
+
 8. Indique las diferencias entre una pila y una cola
 
-9. Defina archivo.
+-Pila: método de organización de datos tipo LIFO (Last In First Out).
+-Cola: método de organización de datos tipo FIFO (First In First Out).
+
+9.  Defina archivo.
 
 Un archivo es una estructura de dato que se utiliza para la conservación permanente de los datos
 
