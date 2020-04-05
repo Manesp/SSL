@@ -13,20 +13,21 @@ La información es un conjunto de datos que tiene un sentido, no solo porque rep
 3. Indique las asignaturas del área de programación.
  
 Las Asignaturas del area de programación son:
-    1. Matemática Discreta
-    2. Algoritmos y Estructuras de Datos
-    3. Sintaxis y Semántica de los Lenguajes 
-    4. Paradigmas de Programación 
-    5. Gestión de Datos
+    
+    -Matemática Discreta
+    -Algoritmos y Estructuras de Datos   
+    -Sintaxis y Semántica de los Lenguajes 
+    -Paradigmas de Programación 
+    -Gestión de Datos
 
-4. Indique las asignaturas del área de sistemas de información.
+1. Indique las asignaturas del área de sistemas de información.
 
 Las asignaturas del área de sistemas de información son:   
-    1. Análisis de requisitos
-    2. Análisis de sistemas
-    3. Diseño de sistemas
-    4. Ingeniería de Software
-    5. Sistemas y organizaciones
+    -Análisis de requisitos
+    -Análisis de sistemas
+    -Diseño de sistemas
+    -Ingeniería de Software
+    -Sistemas y organizaciones
 
 5. Indique el paradigma de programación aplicado en primer año de la carrera.
 
