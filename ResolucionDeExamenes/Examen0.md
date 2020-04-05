@@ -1,6 +1,6 @@
-<h1>Examen #0 </h1>
+# Examen #0 
 
-<h3>Primera Parte</h3>
+### Primera Parte
 
 1. Indique la tarea más representativa para la cual un Ingeniero en Sistemas de Información está calificado.
 
@@ -37,7 +37,7 @@ El paradigma de programación utilizado en el primer año de la carrera, fue un 
 
 Proceso de análisis del mundo real con el propósito de interpretar los aspectos esenciales de un problema y expresarlo en términos precisos.
 
-<h3>Segunda Parte</h3>
+### Segunda parte
 
 1.  Indique diferencias entre secuencia y conjunto.
 
@@ -73,7 +73,7 @@ Los lenguajes formales se caracterizan por tener reglas gramaticales preestablec
 Un autómata finito es una herramienta abstracta que se utiliza para reconocer determinado Lenguaje Regular. 
 Es un modelo matemático de un sistema que recibe una cadena formada por caracteres de un determninado alfabeto y determina si esa cadena pertenece o no al lenguaje que reconoce.
 
-<h3>Tercera Parte</h3>
+### Tercera parte
 
 1. Defina algoritmo.
 
