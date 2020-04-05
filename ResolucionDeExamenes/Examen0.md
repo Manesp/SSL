@@ -60,6 +60,7 @@ Una partición de un conjunto es una división del mismo, en subconjuntos que no
  
 6.  Sea X={a,b} indique P(X)
 
+P(X) es la función partición del conjunto X.
 
 7.  Defina Lenguaje Formal.
 
@@ -101,6 +102,8 @@ Las estructuras de control de flujo de la programación estructurada son la asig
 Parámetro dato (o parámetro de entrada):
 El valor del argumento es asignado al parámetro en el momento de la llamada. El argumento
 puede ser una expresión del mismo tipo de dato que el parámetro. Se trata de una comunicación unidireccional: solamente se transmite información desde el punto del llamado hacia la acción.
+Parametro Salida (o parámetro de salida):
+Se devuelve un resultado asignándole un valor.
 Parámetro dato-resultado (o parámetro de entrada y salida):
 El valor del argumento es asignado al parámetro en el momento de la llamada y al final de la ejecución el valor del parámetro es asignado al argumento. Se trata de una comunicación
 bidireccional. Si la ejecución de la acción provoca un cambio en el valor del parámetro, en el momento del retorno el argumento tendrá el valor del parámetro al finalizar la ejecución.
@@ -121,3 +124,11 @@ Un tipo de dato abstracto está definido por un conjunto de operaciones que repr
 Un archivo es una estructura de dato que se utiliza para la conservación permanente de los datos
 
 10. Diseñe un algoritmo que dado un arreglo de naturales a y su longitud n calcule el promedio.
+
+<float promedio(int a[], int n) {  
+    int sum = 0;  
+ for (int i = 0; i < n; i++) {  
+        sum += a[i];  
+  }  
+    return sum / n;  
+}>
