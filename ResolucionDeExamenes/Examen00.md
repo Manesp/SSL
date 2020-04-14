@@ -8,31 +8,35 @@ La tarea más representativa para la que un Ingeniero en Sistemas de Informació
 
 2. Defina información
 
-La información es un conjunto de datos que tiene un sentido, no solo porque representa  una realidad, sino por que a alguien le interesa. 
+* La información es un conjunto de datos que tiene un sentido, no solo porque representa  una realidad, sino por que a alguien le interesa. 
+
+* Sistemas de información, es un conjunto de subsistemas con un fin en común, que analiza y procesa datos para la toma de decisiones.
 
 3. Indique las asignaturas del área de programación.
  
 Las Asignaturas del area de programación son:
-    
-    -Matemática Discreta
-    -Algoritmos y Estructuras de Datos   
-    -Sintaxis y Semántica de los Lenguajes 
-    -Paradigmas de Programación 
-    -Gestión de Datos
 
-1. Indique las asignaturas del área de sistemas de información.
+- Matemática Discreta
+- Algoritmos y Estructuras de Datos   
+- Sintaxis y Semántica de los Lenguajes 
+- Paradigmas de Programación 
+- Gestión de Datos
+
+4. Indique las asignaturas del área de sistemas de información.
 
 Las asignaturas del área de sistemas de información son:   
 
-    -Análisis de requisitos
-    -Análisis de sistemas
-    -Diseño de sistemas
-    -Ingeniería de Software
-    -Sistemas y organizaciones
+- Análisis de requisitos
+- Análisis de sistemas
+- Diseño de sistemas
+- Ingeniería de Software
+- Sistemas y organizaciones
+- Proyecto final
 
 5. Indique el paradigma de programación aplicado en primer año de la carrera.
 
 El paradigma de programación utilizado en el primer año de la carrera, fue un paradigma de programación estructurado.
+*Utilizamos un paradigma procedural.
 
 6. Defina abstracción.
 
@@ -42,7 +46,7 @@ Proceso de análisis del mundo real con el propósito de interpretar los aspecto
 
 1. Indique diferencias entre secuencia y conjunto.
 
-En una secuencia a diferencia de un conjunto, el orden en que aparecen los términos sí es relevante y un mismo término puede aparecer en más de una posición.
+En una secuencia a diferencia de un conjunto, el orden en que aparecen los términos sí es relevante y un mismo término puede aparecer en más de una posición. 
 
 2. Defina el concepto matemático secuencia.
 
@@ -56,6 +60,8 @@ Una función matemática es una relación que se establece entre dos conjuntos, 
 
 Un grafo es una estructura formada por vértices unidos a través de aristas y se utiliza para representar determinadas situaciones. 
 
+
+
 5. Defina partición de un conjunto.
 
 Una partición de un conjunto es una división del mismo, en subconjuntos que no son vacíos y que no tienen ningún elemento en común.
@@ -63,6 +69,8 @@ Una partición de un conjunto es una división del mismo, en subconjuntos que no
 6. Sea X={a,b} indique P(X)
 
 P(X) es la función partición del conjunto X.
+
+Conjunto de partes o powerset. 
 
 7. Defina Lenguaje Formal.
 
@@ -87,7 +95,8 @@ La programación estructurada es un paradigma, que hace uso de estructuras de co
 
 3. Indique las tres estructuras de control de flujo de ejecución de la programación estructurada.
 
-Las estructuras de control de flujo de la programación estructurada son la asignación, selección y repetición.
+Las estructuras de control de flujo de la programación estructurada son la secuencia, selección y repetición.
+
 
 4. Indique las diferencias entre parámetro y argumento.
 
@@ -99,7 +108,7 @@ Las estructuras de control de flujo de la programación estructurada son la asig
  - Por valor: se comparte una copia del dato entre los módulos, por lo cual las modificaciones realizadas por el segundo módulo no afectan al del primero.
  - Por referencia: se comparte la dirección de memoria donde el dato se encuentra almacenado, por lo cual tanto el módulo que realiza la llamada, como el llamado pueden acceder a dicho dato y modificarlo.
 
-1. Explique las diferencias entre parámetros de entrada, de salida y de entrada/salida
+6. Explique las diferencias entre parámetros de entrada, de salida y de entrada/salida
 
 - Parámetro dato (o parámetro de entrada):
 El valor del argumento es asignado al parámetro en el momento de la llamada. El argumento
@@ -112,9 +121,14 @@ bidireccional. Si la ejecución de la acción provoca un cambio en el valor del 
 Un argumento para un parámetro dato-resultado debe ser una variable del mismo tipo de dato
 que el parámetro y no puede ser una expresión.
 
+**
+- Entrada: recibe la funcion y sirve para haceer algún cálculo
+- Salida: se utiliza para obtener un resultado
+- Entrada salida: Reciben un dato, lo usa para calcular y el resultado lo sobrescribe en lo que era la entrada
+
 7. Defina tipo de dato abstracto.
 
-Un tipo de dato abstracto está definido por un conjunto de operaciones que representan el comportamiento, sin mencionar cómo van a ser implementadas.
+Un tipo de dato abstracto está definido por un conjunto de operaciones que representan el comportamiento, sin mencionar cómo van a ser implementadas. *Lo podemos utilizar sin importar como se van a resolver los pedidos.
 
 8. Indique las diferencias entre una pila y una cola
 
