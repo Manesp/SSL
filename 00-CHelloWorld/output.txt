@@ -1,2 +1,1 @@
-PS C:\Users\Manu\Desktop\Hola mundo> ./hello.exe
 Hello, World!
