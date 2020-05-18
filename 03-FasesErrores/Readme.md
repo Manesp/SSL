@@ -21,6 +21,7 @@
 
 - Resultados obtenidos:
   - Obtenemos hello3.i
+  - A diferencia de hello3.c, hello3.i nos está avisando que es lo que va a compilar
   - A diferencia de hello2.i, cuando preprocesamos hello3.c no obtenemos el mismo comportamiento.
 
 - Errores: 
@@ -99,6 +100,8 @@ hello3.c:4:2: error: expected declaration or statement at end of input
     c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: C:\Users\Manu\AppData\Local\Temp\ccobEcZn.o:hello4.c:(.text+0x16): undefined reference to `prontf'
   collect2.exe: error: ld returned 1 exit status
 
+- El compilador indica que prontf no está declarado 
+
 ## Paso 11
 
 - Comandos ejecutados: 
@@ -119,7 +122,7 @@ hello3.c:4:2: error: expected declaration or statement at end of input
   -  C:\Users\Manu\Desktop\Trabaj>hello5.out
 
 - Resultados obtenidos:
-  - Al ejecutar hello5.out nos da "La respuesta es 0"
+  - Al ejecutar hello5.out nos da "La respuesta es 4200688"
 
 ## Paso 13
 
@@ -133,21 +136,28 @@ hello3.c:4:2: error: expected declaration or statement at end of input
 - Errores:
   - No hay errores en esta fase
 
-## Paso 14 y 15
+## Pasos 14 y 15
 
-- Comandos ejecutados:
-  - C:\Users\Manu\Desktop\Trabaj>gcc hello7.c -o hello7.out
+- Comando ejecutado:
 
-- Resultados obtenidos:
-  - No se genera el ejecutable.
+    $ gcc hello7.c -o hello7.out
+    $ ./hello7.out
 
-- Errores :
-  - ```cmd
-    hello7.c: In function 'main':
-    hello7.c:3:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-        3 |     printf("La respuesta es %d\n", i);
-          |     ^~~~~~
-    hello7.c:3:5: warning: incompatible implicit declaration of built-in function 'printf'
-    hello7.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
-      +++ |+#include <stdio.h>
-        1 | int main(void){
+- Resultado obtenido:
+
+  - Archivo `hello7.out`
+  - Se genera el archivo ejecutable, equivalente al código del archivo fuente
+  - Al ejecutar el archivo resultante, se visualiza por consola `La respuesta es 42`
+  - El código funciona debido a que la función printf utilizada, se busca en la biblioteca estándard, la cual se linkea por defecto por GCC durante la fase de vinculación. 
+
+- Errores:
+
+```cmd
+hello7.c:3:5: warning: implicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration]
+    printf("La respuesta es %d\n", i);
+    ^
+hello7.c:3:5: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'
+1 warning generated.
+```
+
+- Se está utilizando la función printf de manera implícita, es decir no se incluyó el header con la biblioteca estándar, ni tampoco se agregó explicitamente la declaración de la función **(warning)**
