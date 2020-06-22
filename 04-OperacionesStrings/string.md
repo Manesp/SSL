@@ -14,4 +14,4 @@
 
 ![power](index/power.png)
 
-
+4. ## AreEqual Epsilon* x Epsilon* -> {T;F}

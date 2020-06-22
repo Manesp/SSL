@@ -1,3 +1,10 @@
+/*
+SSL
+04-OperacionesStrings
+Manuel Ignacio Espina
+170.366-3
+*/
+
 #include <stdio.h>
 #include <stdbool.h>
 #include "string.h"
