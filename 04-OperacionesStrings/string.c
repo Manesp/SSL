@@ -1,8 +1,12 @@
+#include <stdio.h>
+#include <stdbool.h>
+#include "string.h"
 
-size_t GetLength(const char * stringValue)
+
+size_t GetLength(const char * str)
 {
     size_t index = 0;
-    while(stringValue[index] != '\0')
+    while(str[index] != '\0')
     {
         index++;
     }
@@ -10,9 +14,9 @@ size_t GetLength(const char * stringValue)
 }
 
 
-bool IsEmpty(const char * stringValue)
+bool IsEmpty(const char * str)
 {
-    return GetLength(stringValue) == 0;
+    return GetLength(str) == 0;
 }
 
 char * Power(const char * string, unsigned int power)
@@ -30,4 +34,14 @@ char * Power(const char * string, unsigned int power)
     result[newLength] = '\0';
 
     return result;
+}
+
+bool AreEqual(const char * str1, const char * str2){
+    if(GetLength(str1) != GetLength(str2)) return false;
+
+    for(unsigned i = 0; i < GetLength(str1); ++i) {
+        if (str1[i] != str2[i]) return false;
+    }
+
+    return true;
 }
