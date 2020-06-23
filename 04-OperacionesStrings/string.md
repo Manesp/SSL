@@ -22,4 +22,6 @@
 
 4. ## AreEqual Epsilon* x Epsilon* -> {T; F}
 
+![areequal](index/areequal.png)
+
 - La función valida si dos cadenas ingresadas son idénticas. Retornará true, si son iguales, o false, si son diferentes.
