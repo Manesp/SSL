@@ -1,0 +1,19 @@
+digraph G {
+    splines="FALSE";
+
+    /* Entities */
+    node1 [label="=", shape=circle]
+    node2 [label="nl", shape=circle]
+    node3 [label="=", shape=circle]
+    node4 [label="nw", shape=circle]
+    node5 [label="=", shape=circle]
+    node6 [label="nc", shape=circle]
+    node7 [label="=", shape=circle]
+    node8 [label="0", shape=circle]
+    /* Relationships */
+    node1 -> {node2, node3}
+    node3 -> {node4, node5}
+    node5 -> {node6, node7}
+    node7 -> {node8}
+
+}
