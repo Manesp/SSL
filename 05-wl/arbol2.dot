@@ -1,0 +1,23 @@
+digraph arbol2 {
+    splines="FALSE";
+
+    /* Entities */
+    node1 [label="||", shape=circle]
+    node2 [label="||", shape=circle]
+    nodec1 [label="c", shape=circle]
+    nodec2 [label="c", shape=circle]
+    nodec3 [label="c", shape=circle]
+    nodeiq1 [label="==", shape=circle]
+    nodeiq2 [label="==", shape=circle]
+    nodeiq3 [label="==", shape=circle]
+    nodet [label="\\t", shape=circle]
+    noden [label="\\n", shape=circle]
+    nodespa [label="\" \" ", shape=circle]
+
+    /* Relationships */
+    node1 -> {node2, nodeiq3}
+    node2 -> {nodeiq1, nodeiq2}
+    nodeiq1 -> {nodec1, nodespa}
+    nodeiq2 -> {nodec2, noden}
+    nodeiq3 -> {nodet, nodec3}
+} 
