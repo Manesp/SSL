@@ -1,36 +1,55 @@
 #include <stdio.h>
 
-enum state {In, Out};
-typedef enum state State;
+enum States
+{
+    In,
+    Out
+};
 
-int main() {
+typedef enum States State;
+
+int main(void){
+    
     State s = Out;
-    int nc = 0;
-    int nl = 0;
-    int nw = 0;
-    char c;
+    int c;
 
-    while((c = getchar()) != EOF) {
-        ++nc;
-        switch(c) {
-            case '\n':
-                ++nl;
-                s = Out;
-            break;
-            case '\t':
-                s = Out;
-            break;
+    while ((c = getchar()) != EOF) {            
+        switch(c)
+        {
             case ' ':
-                s = Out;
-            break;
-            default:
-                if (s == Out) {
-                    ++nw;
-                    s = In;
+            case '\t':
+            case '\n':
+            case '.':
+            case ',':
+            case ';':
+            {
+                switch(s)
+                {
+                    case In:
+                    {
+                        s = Out;
+                        putchar('\n');
+                    }
+                    case Out:
+                        s = Out;
                 }
-            break;
+                break;
+            }
+            default:
+            {
+                switch(s)
+                {
+                    case In:
+                    case Out:
+                    {        
+                        s = In;
+                        putchar(c);
+                    }
+                }
+                break;
+            }
         }
     }
-
-    printf("%d %d %d \n", nl, nw, nc);
+    
+    return 0;
 }
