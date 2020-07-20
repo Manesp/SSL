@@ -62,4 +62,6 @@ En caso de que el programa deba acceder a contadores, los mecanismos para hacerl
 - Mecanismo de Variables Externas: los datos son alojados a variables globales externas a la función, esto significa que pueden ser accedidos por cualquier función. La función ya no recibe esos datos como parte de sus parámetros, pero igualmente los puede alcanzar y usar para ejecutar instrucciones con ellos.
 
 
+## Benchmarks
+
 
